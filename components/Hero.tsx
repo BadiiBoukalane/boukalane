@@ -12,6 +12,152 @@ export default function Hero() {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-float"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
+
+        {/* Mobile code elements - closer to center */}
+        <div className="absolute inset-0 lg:hidden">
+          {/* Top center */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1 }}
+            className="absolute top-28 left-1/2 -translate-x-1/2 -translate-y-12 text-blue-400 font-mono text-xs"
+          >
+            {'<code>'}
+          </motion.div>
+
+          {/* Left side */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.2 }}
+            className="absolute top-1/2 left-4 -translate-y-20 text-cyan-400 font-mono text-xs"
+          >
+            {'=>'}
+          </motion.div>
+
+          {/* Right side */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.4 }}
+            className="absolute top-1/2 right-4 -translate-y-20 text-purple-400 font-mono text-xs"
+          >
+            {'{ }'}
+          </motion.div>
+
+          {/* Bottom center */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.6 }}
+            className="absolute bottom-32 left-1/2 -translate-x-1/2 text-pink-400 font-mono text-xs"
+          >
+            {'</>'}
+          </motion.div>
+        </div>
+
+        {/* Code symbols background - Clean and minimal */}
+        <div className="absolute inset-0 hidden lg:block">
+          {/* Top left */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1 }}
+            className="absolute top-20 left-10 text-blue-400 font-mono text-sm"
+          >
+            {'<code>'}
+          </motion.div>
+
+          {/* Top center-left */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.1 }}
+            className="absolute top-32 left-1/4 text-cyan-400 font-mono text-sm"
+          >
+            {'const'}
+          </motion.div>
+
+          {/* Top center-right */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.2 }}
+            className="absolute top-24 right-1/4 text-green-400 font-mono text-sm"
+          >
+            {'function()'}
+          </motion.div>
+
+          {/* Top right */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.3 }}
+            className="absolute top-20 right-10 text-purple-400 font-mono text-sm"
+          >
+            {'</code>'}
+          </motion.div>
+
+          {/* Middle left */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.4 }}
+            className="absolute top-1/2 left-16 text-blue-400 font-mono text-sm"
+          >
+            {'=>'}
+          </motion.div>
+
+          {/* Middle right */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.5 }}
+            className="absolute top-1/2 right-16 text-yellow-400 font-mono text-sm"
+          >
+            {'[ ]'}
+          </motion.div>
+
+          {/* Bottom left */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.6 }}
+            className="absolute bottom-20 left-10 text-blue-400 font-mono text-sm"
+          >
+            {'</>'}
+          </motion.div>
+
+          {/* Bottom center-left */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.7 }}
+            className="absolute bottom-32 left-1/3 text-pink-400 font-mono text-sm"
+          >
+            {'import'}
+          </motion.div>
+
+          {/* Bottom center-right */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.8 }}
+            className="absolute bottom-28 right-1/3 text-purple-400 font-mono text-sm"
+          >
+            {'export'}
+          </motion.div>
+
+          {/* Bottom right */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.1 }}
+            transition={{ delay: 1.9 }}
+            className="absolute bottom-20 right-10 text-purple-400 font-mono text-sm"
+          >
+            {'{ }'}
+          </motion.div>
+        </div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
