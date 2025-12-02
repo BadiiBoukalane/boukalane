@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Badii Boukalane",
+    "title": "Full-Stack Developer",
+    "subtitle": "Building modern, scalable web applications with cutting-edge technologies",
+    "specialties": {
+      "websites": "Websites",
+      "ecommerce": "E-Commerce",
+      "complex": "Complex Apps"
+    },
+    "cta": "Get Started",
+    "ctaSecondary": "View Pricing"
+  },
+  "portfolio": {
+    "title": "Featured Projects",
+    "subtitle": "Real-world applications I've built for clients",
+    "atlassia": {
+      "title": "Atlassia",
+      "description": "A comprehensive gardening application helping users manage their plants, get care tips, and connect with fellow gardeners.",
+      "category": "Mobile & Web App"
+    },
+    "vibentec": {
+      "title": "Vibentec",
+      "description": "Corporate website for an industrial solutions provider, showcasing products and services with modern design.",
+      "category": "Corporate Website"
+    },
+    "vibenteceng": {
+      "title": "Vibentec Engineering",
+      "description": "Professional website for industrial engineering services, featuring project portfolios and technical expertise.",
+      "category": "Engineering Website"
+    },
+    "twsila": {
+      "title": "Twsila",
+      "description": "Package shipment platform connecting transporters and shippers with real-time tracking and booking system.",
+      "category": "SaaS Platform"
+    },
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "years": "Years Experience",
+      "satisfaction": "Satisfaction Rate"
+    }
+  },
+  "services": {
+    "title": "What I Offer",
+    "subtitle": "Professional development services tailored to your needs",
+    "web": {
+      "title": "Web Development",
+      "description": "Modern, responsive websites built with React, Next.js, and TypeScript"
+    },
+    "fullstack": {
+      "title": "Full-Stack Solutions",
+      "description": "Complete applications from database design to polished UI/UX"
+    },
+    "api": {
+      "title": "API Development",
+      "description": "RESTful and GraphQL APIs with proper documentation and security"
+    },
+    "optimization": {
+      "title": "Performance Optimization",
+      "description": "Speed up your website with modern optimization techniques"
+    },
+    "consulting": {
+      "title": "Technical Consulting",
+      "description": "Architecture planning, code reviews, and best practices guidance"
+    },
+    "maintenance": {
+      "title": "Maintenance & Support",
+      "description": "Ongoing support to keep your application running smoothly"
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Transparent pricing for every budget",
+    "basic": {
+      "name": "Basic",
+      "tagline": "Starter Website",
+      "price": "650",
+      "pages": "Up to 3 pages",
+      "features": [
+        "1 language",
+        "Mobile-responsive design",
+        "Basic SEO setup",
+        "Contact form",
+        "Hosting & deployment",
+        "1 round of revisions"
+      ],
+      "cta": "Get Started"
+    },
+    "standard": {
+      "name": "Standard",
+      "tagline": "Professional Website",
+      "price": "1000",
+      "pages": "Up to 6 pages",
+      "features": [
+        "Everything in Basic",
+        "Improved UI/UX & animations",
+        "SEO optimization",
+        "WhatsApp integration",
+        "Performance optimization",
+        "2 rounds of revisions",
+        "1 month support"
+      ],
+      "cta": "Most Popular",
+      "popular": true
+    },
+    "premium": {
+      "name": "Premium",
+      "tagline": "Business Growth Website",
+      "price": "1500",
+      "pages": "Up to 10 pages",
+      "features": [
+        "Everything in Standard",
+        "Full custom UI design",
+        "Multilingual support (2-3 languages)",
+        "Blog + admin panel",
+        "Advanced SEO",
+        "Email automation",
+        "Training session",
+        "2 months support"
+      ],
+      "cta": "Get Premium"
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Get in touch to discuss your project",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Tell me about your project",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "built": "Built with"
+  }
+}

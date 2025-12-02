@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "pricing": "Preise",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin Badii Boukalane",
+    "title": "Full-Stack Entwickler",
+    "subtitle": "Entwicklung moderner, skalierbarer Webanwendungen mit neuesten Technologien",
+    "specialties": {
+      "websites": "Webseiten",
+      "ecommerce": "E-Commerce",
+      "complex": "Komplexe Apps"
+    },
+    "cta": "Jetzt starten",
+    "ctaSecondary": "Preise ansehen"
+  },
+  "portfolio": {
+    "title": "Ausgewählte Projekte",
+    "subtitle": "Reale Anwendungen, die ich für Kunden entwickelt habe",
+    "atlassia": {
+      "title": "Atlassia",
+      "description": "Eine umfassende Garten-App, die Benutzern hilft, ihre Pflanzen zu verwalten, Pflegetipps zu erhalten und sich mit anderen Gärtnern zu vernetzen.",
+      "category": "Mobile & Web App"
+    },
+    "vibentec": {
+      "title": "Vibentec",
+      "description": "Unternehmenswebsite für einen Anbieter industrieller Lösungen mit modernem Design zur Präsentation von Produkten und Dienstleistungen.",
+      "category": "Unternehmenswebsite"
+    },
+    "vibenteceng": {
+      "title": "Vibentec Engineering",
+      "description": "Professionelle Website für technische Dienstleistungen mit Projektportfolios und technischer Expertise.",
+      "category": "Engineering-Website"
+    },
+    "twsila": {
+      "title": "Twsila",
+      "description": "Paketversandplattform, die Transporteure und Versender mit Echtzeit-Tracking und Buchungssystem verbindet.",
+      "category": "SaaS-Plattform"
+    },
+    "stats": {
+      "projects": "Abgeschlossene Projekte",
+      "clients": "Zufriedene Kunden",
+      "years": "Jahre Erfahrung",
+      "satisfaction": "Zufriedenheitsrate"
+    }
+  },
+  "services": {
+    "title": "Meine Leistungen",
+    "subtitle": "Professionelle Entwicklungsservices nach Maß",
+    "web": {
+      "title": "Webentwicklung",
+      "description": "Moderne, responsive Websites mit React, Next.js und TypeScript"
+    },
+    "fullstack": {
+      "title": "Full-Stack Lösungen",
+      "description": "Komplette Anwendungen vom Datenbankdesign bis zur UI/UX"
+    },
+    "api": {
+      "title": "API-Entwicklung",
+      "description": "RESTful und GraphQL APIs mit Dokumentation und Sicherheit"
+    },
+    "optimization": {
+      "title": "Performance-Optimierung",
+      "description": "Beschleunigung Ihrer Website mit modernen Techniken"
+    },
+    "consulting": {
+      "title": "Technische Beratung",
+      "description": "Architekturplanung, Code-Reviews und Best Practices"
+    },
+    "maintenance": {
+      "title": "Wartung & Support",
+      "description": "Laufende Unterstützung für reibungslosen Betrieb"
+    }
+  },
+  "pricing": {
+    "title": "Preispakete",
+    "subtitle": "Transparente Preise für jedes Budget",
+    "basic": {
+      "name": "Basic",
+      "tagline": "Starter-Website",
+      "price": "650",
+      "pages": "Bis zu 3 Seiten",
+      "features": [
+        "1 Sprache",
+        "Mobile-responsive Design",
+        "Basis-SEO",
+        "Kontaktformular",
+        "Hosting & Deployment",
+        "1 Überarbeitungsrunde"
+      ],
+      "cta": "Jetzt starten"
+    },
+    "standard": {
+      "name": "Standard",
+      "tagline": "Professionelle Website",
+      "price": "1000",
+      "pages": "Bis zu 6 Seiten",
+      "features": [
+        "Alles aus Basic",
+        "Verbesserte UI/UX & Animationen",
+        "SEO-Optimierung",
+        "WhatsApp-Integration",
+        "Performance-Optimierung",
+        "2 Überarbeitungsrunden",
+        "1 Monat Support"
+      ],
+      "cta": "Beliebteste Wahl",
+      "popular": true
+    },
+    "premium": {
+      "name": "Premium",
+      "tagline": "Business Growth Website",
+      "price": "1500",
+      "pages": "Bis zu 10 Seiten",
+      "features": [
+        "Alles aus Standard",
+        "Vollständig individuelles UI-Design",
+        "Mehrsprachige Unterstützung (2-3 Sprachen)",
+        "Blog + Admin-Panel",
+        "Erweiterte SEO",
+        "E-Mail-Automatisierung",
+        "Schulungssitzung",
+        "2 Monate Support"
+      ],
+      "cta": "Premium wählen"
+    }
+  },
+  "contact": {
+    "title": "Lassen Sie uns zusammenarbeiten",
+    "subtitle": "Kontaktieren Sie mich für Ihr Projekt",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "message": "Erzählen Sie mir von Ihrem Projekt",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "built": "Erstellt mit"
+  }
+}
