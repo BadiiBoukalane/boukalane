@@ -78,6 +78,8 @@
   "pricing": {
     "title": "Pricing Plans",
     "subtitle": "Transparent pricing for every budget",
+    "cta": "Ready to start your project?",
+    "ctaButton": "Get in Touch",
     "basic": {
       "name": "Basic",
       "tagline": "Starter Website",

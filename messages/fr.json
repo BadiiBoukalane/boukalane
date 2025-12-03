@@ -78,6 +78,8 @@
   "pricing": {
     "title": "Formules tarifaires",
     "subtitle": "Prix transparents pour tous les budgets",
+    "cta": "Prêt à démarrer votre projet ?",
+    "ctaButton": "Contactez-moi",
     "basic": {
       "name": "Basic",
       "tagline": "Site web de démarrage",

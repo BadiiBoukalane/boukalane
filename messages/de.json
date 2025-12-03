@@ -78,6 +78,8 @@
   "pricing": {
     "title": "Preispakete",
     "subtitle": "Transparente Preise für jedes Budget",
+    "cta": "Bereit, Ihr Projekt zu starten?",
+    "ctaButton": "Kontakt aufnehmen",
     "basic": {
       "name": "Basic",
       "tagline": "Starter-Website",

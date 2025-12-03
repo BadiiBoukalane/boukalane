@@ -96,8 +96,13 @@ function PricingCard({ plan, index }: { plan: string; index: number }) {
 
 export default function Pricing() {
   const t = useTranslations('pricing');
+  const { currency, setCurrency } = useCurrency();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const toggleCurrency = () => {
+    setCurrency(currency === 'EUR' ? 'MAD' : 'EUR');
+  };
 
   return (
     <section id="pricing" className="py-24 bg-slate-900 relative overflow-hidden">
@@ -118,9 +123,40 @@ export default function Pricing() {
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             {t('title')}
           </h2>
-          <p className="text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto">
+          <p className="text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto mb-6">
             {t('subtitle')}
           </p>
+
+          {/* Currency Switcher */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="flex justify-center"
+          >
+            <div className="inline-flex items-center gap-2 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-lg p-1">
+              <button
+                onClick={toggleCurrency}
+                className={`px-4 py-2 rounded-md font-medium transition-all duration-300 ${
+                  currency === 'EUR'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                EUR (€)
+              </button>
+              <button
+                onClick={toggleCurrency}
+                className={`px-4 py-2 rounded-md font-medium transition-all duration-300 ${
+                  currency === 'MAD'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                MAD (د.م.)
+              </button>
+            </div>
+          </motion.div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -139,6 +175,29 @@ export default function Pricing() {
           <p className="text-slate-500 text-sm">
             💡 All packages include modern tech stack, clean code, and professional support
           </p>
+        </motion.div>
+
+        {/* CTA Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+          transition={{ duration: 0.6, delay: 1 }}
+          className="mt-16 text-center"
+        >
+          <div className="max-w-2xl mx-auto bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 sm:p-12 rounded-2xl border border-slate-700/50">
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+              {t('cta')}
+            </h3>
+            <p className="text-slate-400 mb-8 text-lg">
+              {t('subtitle')}
+            </p>
+            <a
+              href="#contact"
+              className="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105"
+            >
+              {t('ctaButton')}
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
